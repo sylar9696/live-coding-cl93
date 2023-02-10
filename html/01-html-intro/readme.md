@@ -25,3 +25,19 @@ windows / mac: seleziono gli elementi e clicco il TAB
 # estensione per markdown anteprima in vs code:
 nome estensione: **Markdown Preview Enhanced**
 windows: `ctrl+shift + v`
+
+# corretta struttura per la lista annidata:
+```html
+<ul>
+    <li>pomodoro</li>
+    <li>banane</li>
+    <li>Panino:
+    <ul>
+        <li>
+            <span class="icon">&#10003;</span> insalata</li>
+            <li>hamburger</li>
+            <li>bacon</li>
+    </ul>
+    </li>
+</ul>
+```
