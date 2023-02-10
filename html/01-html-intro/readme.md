@@ -1,5 +1,5 @@
 # shortcode: commenti in vs code
-windows: ctrl + k + c
+windows: `ctrl + k + c`
 mac: cmd + k + c / cmd + shift + 7
 
 # shortcode: spostare elementi selezionati verticalmente
