@@ -42,3 +42,6 @@ windows: `ctrl+shift + v`
     </li>
 </ul>
 ```
+
+# guida inline e block elementi html:
+[guida](https://www.w3schools.com/htmL/html_blocks.asp)
