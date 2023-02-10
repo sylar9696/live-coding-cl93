@@ -32,12 +32,13 @@ windows: `ctrl+shift + v`
     <li>pomodoro</li>
     <li>banane</li>
     <li>Panino:
-    <ul>
-        <li>
-            <span class="icon">&#10003;</span> insalata</li>
+        <ul>
+            <li>
+                <span class="icon">&#10003;</span> insalata
+            </li>
             <li>hamburger</li>
             <li>bacon</li>
-    </ul>
+        </ul>
     </li>
 </ul>
 ```
