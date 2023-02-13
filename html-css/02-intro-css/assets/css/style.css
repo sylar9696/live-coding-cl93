@@ -1,0 +1,20 @@
+body{
+    background-color: lightslategrey;
+}
+
+h1{
+    font-size: 10px;
+}
+
+/* classe */
+.paragraph{
+    line-height: 200px;
+}
+
+p{
+    line-height: 50px; 
+}
+
+#paragraph-unique{
+    line-height: 10px; 
+}
