@@ -6,3 +6,6 @@
 
 # google font:
 [link](https://fonts.google.com/)
+
+# svg preview estensione vs code:
+nome: Svg Preview
