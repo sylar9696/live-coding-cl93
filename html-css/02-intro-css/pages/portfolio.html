@@ -7,19 +7,76 @@
     <title>Portfolio</title>
     <!-- link css -->
     <!-- metodo 2: css tramite file esterno -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <header>
         <!-- menu -->
-        <ul>
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
-            <li>
-                <a href="./pages/portfolio.html">Portfolio</a>
-            </li>
-        </ul>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./pages/portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Banner -->
+        <div id="banner">
+            <img src="../assets/img/avatar-account.png" width="150px" alt="Avatar">
+            <h1>Portfolio</h1>
+            <!-- separatore -->
+            <div class="divider"></div>
+            <span>Full Stack Developer</span>
+        </div>
+
     </header>
+    <main>
+        <section>
+            <h3>Experience</h3>
+            <ul>
+                <li>ability 1</li>
+                <li>ability 2</li>
+                <li>ability 3</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Lorem ipsum</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, harum rerum doloremque dolores, neque temporibus <mark>recusandae exercitationem</mark> amet incidunt consequatur nobis? Tenetur iure accusantium at dignissimos doloremque non atque commodi.</p>
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>col 1</th>
+                        <th>col 2</th>
+                        <th>col 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ipsum culpa eaque veniam fugiat pariatur molestiae fuga numquam consequatur, sint animi quis accusamus, maxime soluta reiciendis? Placeat perferendis nihil temporibus!</td>
+                        <td id="t-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ipsum culpa eaque veniam fugiat pariatur molestiae fuga numquam consequatur, sint animi quis accusamus, maxime soluta reiciendis? Placeat perferendis nihil temporibus!</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ipsum culpa eaque veniam fugiat pariatur molestiae fuga numquam consequatur, sint animi quis accusamus, maxime soluta reiciendis? Placeat perferendis nihil temporibus!</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="text-center text-big" colspan="3">ciao</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <span>Made with &hearts; by Boolean</span>
+    </footer>
 </body>
 </html>

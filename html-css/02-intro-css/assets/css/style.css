@@ -1,9 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 body{
-    background-color: lightslategrey;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
     font-size: 10px;
+}
+
+/*utility*/
+.text-center{
+    text-align: center;
+}
+
+.text-big{
+    font-size: 22px;
+}
+
+section{
+    margin: 20px 0;
 }
 
 /* classe */
@@ -11,10 +28,62 @@ h1{
     line-height: 200px;
 }
 
-p{
+/* p{
     line-height: 50px; 
-}
+} */
 
 #paragraph-unique{
     line-height: 10px; 
+}
+
+
+/* Portoflio */
+#banner{
+    background-image: url('../img/white-pattern.jpg');
+    background-size: 20%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid lightgoldenrodyellow;
+    /* background-repeat: no-repeat; */
+}
+
+.divider{
+    height: 2px;
+    width: 50px;
+    background-color: lightslategrey;
+    margin: auto;
+}
+
+main{
+    margin: auto;
+    max-width: 80%;
+}
+
+table{
+    border: 1px solid orange;
+}
+
+thead,
+tfoot{
+    background-color: orange;
+}
+
+td,
+th{
+    padding: 10px;
+}
+
+
+#t-center {
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
+    width: 50%;
+}
+
+footer{
+    background-image: url(../img/footer-background-1.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
