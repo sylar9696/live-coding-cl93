@@ -17,7 +17,8 @@ windows / mac: seleziono gli elementi e clicco il TAB
 [Guida](https://www.markdownguide.org/cheat-sheet/)
 
 # Sito per icone html , html entity code
-[Guida](https://www.toptal.com/designers/htmlarrows/symbols/check-mark/)
+[Guida 1](https://www.toptal.com/designers/htmlarrows/symbols/check-mark/)
+[Guida 2](https://microsoftedge.microsoft.com/addons/detail/color-picker-native-eye/kdnmcgnfeombejhnjnhogebofonkgebl)
 
 # validator html:
 [Validator html](https://validator.w3.org/#validate_by_input)
