@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: lightgray;
+    width: calc(100%/3);
+}
+
+/* .card:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+} */
+
+.card h2:hover {
+    font-size: 50px;
+}
+
+.card a:visited{
+    color: red;
+}
