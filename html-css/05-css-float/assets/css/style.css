@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+}
+
+.pink{
+    background-color: pink;
+    float: left;
+}
+
+.blue{
+    background-color: blue;
+    float: right;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* per la struttura a 2 colonne */
+
+
+/* nav{
+    float: left;
+    width: calc( ( 100% / 2) - 5% );
+    height: 500px;
+    background-color: pink;
+} */
+
+/* width totale dei due elementi = 45 + 45 = 90% */
+
+/* main{
+    float: right;
+    width: calc( ( 100% / 2) - 5% );
+    height: 500px;
+    background-color: blue;
+} */
+
+
+
+/* per la struttura a 3 colonne */
+nav{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: pink;
+}
+
+
+
+main{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: blue;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    height: 500px;
+    background-color: green;
+}
+
+
+
+
+
+/*flexbox*/
+.flex{
+    display: flex;
+}
+
+.box-flex{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+a{
+    text-decoration:line-through;
+}
