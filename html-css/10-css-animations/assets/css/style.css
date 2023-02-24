@@ -1,0 +1,28 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* position: relative; */
+    animation: changeColor 3s;
+}
+
+button{
+    animation: changeColor 3s;
+    background-color: yellow;
+    color: white;
+}
+
+
+
+@keyframes changeColor {
+    0%{
+        background-color: red;
+        font-size: 20px;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: green;
+    }
+}
